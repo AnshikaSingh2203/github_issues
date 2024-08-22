@@ -1,7 +1,7 @@
 # github_issues
 
  <!-- In this project, our task is to raise an issue in github_issues repo,
- Create a branch on that repo 
+ Create a branch on that repo (issue-1)
  Add input code, output code and metadata.json files into that branch after fixing a code with nugs with a model's response
  and then create a Pull Request(PR). -->
 
@@ -41,3 +41,5 @@ s consists of parentheses only '()[]{}'. -->
 # The code that contains the model response(that is, the code after fixing the bugs) is in output_code.py file.
 
 # A metadata.json file is provided to get an idea of the task performed and to analyze the model's performance.
+
+# Contributors- Anshika Singh

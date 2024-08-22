@@ -3,7 +3,7 @@
     "model": "c9e12234f8c006357fc64fee9b1f40afccafa8e9a1b56ab8e70388b97b23e3028d9f82c156cf134bebcff80b2bca98218a5e973fed0afd661370d3667654069f",
     "language": "python",
     "system_prompt": {
-      "instructions": "You need to give the model a code with bugs and ask the model to correct the code and fix the bugs and follow the prompt instructions really well.",
+      "instructions": "You need to give the model a code with bugs and ask the model to correct the code and fix the bugs and follow the prompt instructions accordingly.",
       "type": "task_specific",
       "topic": "Data Structures",
       "subtopic": "Stack"
@@ -14,8 +14,8 @@
         "choice": 4,
         "thumbs": "up|down|",
         "activity": "bug_fixing", 
-        "issue_type": "",
-        "issue_comment": "",
+        "issue_type": "Fix a bug",
+        "issue_comment": "Optimize code for 100% correct results",
         "issue_source": "", 
         "code_execution": "full", 
         "level_of_correctness": 2,
