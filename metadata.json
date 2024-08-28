@@ -3,14 +3,14 @@
     "model": "c9e12234f8c006357fc64fee9b1f40afccafa8e9a1b56ab8e70388b97b23e3028d9f82c156cf134bebcff80b2bca98218a5e973fed0afd661370d3667654069f",
     "language": "python",
     "system_prompt": {
-      "instructions": "You need to give the model a code with bugs and ask the model to correct the code and fix the bugs and follow the prompt instructions accordingly.",
-      "type": "task_specific",
-      "topic": "Data Structures",
-      "subtopic": "Stack"
+    "instructions": "You are a highly specialized technical advisor with expertise in Python programming for data science and machine learning.   Your sole responsibility is to guide the user through the implementation, optimization, and evaluation of data-driven models in Python. Provide concise code corrections and improvements and stick to Python best practices, assume basic Python knowledge, and focus strictly on data science and machine learning in Python.",
+    "type": "task_specific",
+    "topic": "Data Structures",
+    "subtopic": "Stack"
     },
     "prompts": [
       {
-        "prompt":"Optimize the given code to pass all the test cases",
+        "prompt":"You are an expert in Python data science and machine learning. Below is a Python code snippet implementing a simple logistic regression model using the scikit-learn library. The goal is to predict whether a student will pass or fail based on their study hours. The dataset includes a study_hours feature and a pass label.",
         "choice": 4,
         "thumbs": "up|down|",
         "activity": "bug_fixing", 
